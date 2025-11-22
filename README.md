@@ -1,10 +1,10 @@
 # Hash Function DIY Contest
-Author: Somang Lee
-Course: CSE 310 - Data Structures and Algorithms
-Instructor: Yiran "Lawrence" Luo
-Score: 20/20
-Average Hidden Case StdDev: 2.993
-Ranking: 10/114 Students
+**Author:** Somang Lee  
+**Course:** CSE 310 - Data Structures and Algorithms  
+**Instructor:** Yiran "Lawrence" Luo  
+**Score:** 20/20  
+**Average Hidden Case StdDev:** 2.993  
+**Ranking:** 10/114 Students  
 
 ## Overview
 
@@ -32,6 +32,7 @@ The project was graded through the Gradescope autograder in an Ubuntu 22.04 (GCC
 ```cpp
    tracker = tracker * 31 + (unsigned char)c;
    return tracker % k;
+```
 per character.
 We use unsigned characters to avoid dealing with possible negatives or overflows and choose the number 31 as our multiplier as its a prime odd number often used in Java hash functions. 
 5. The last step is to return the value 'tracker % k' (where k is the amount of words in the file) that will determine its slot spot in the hash table. 
@@ -51,4 +52,5 @@ inputs/sample_input.txt
 
 ## References
 - **GeeksforGeeks – Hash Functions and List Types of Hash Functions** 
+
 - **CSE 310 Course Materials, Fall 2025 (Arizona State University)** 
