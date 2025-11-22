@@ -34,7 +34,7 @@ The project was graded through the Gradescope autograder in an Ubuntu 22.04 (GCC
    return tracker % k;
 ```
 per character.
-We use unsigned characters to avoid dealing with possible negatives or overflows and choose the number 31 as our multiplier as its a prime odd number often used in Java hash functions. 
+We use unsigned characters to avoid dealing with possible negatives or overflows and choose the number 31 as our multiplier as its a prime odd number often used in Java hash functions.  
 5. The last step is to return the value 'tracker % k' (where k is the amount of words in the file) that will determine its slot spot in the hash table. 
 
 ## Implementation Details
@@ -42,15 +42,18 @@ We use unsigned characters to avoid dealing with possible negatives or overflows
 - **Language: C++11** 
 - **Build System: Makefile (make → builds executable encoder)** 
 - **Structure:**
-main.cpp
-hash.cpp and hash.h (implementation of the hash table class)
-Makefile 
-inputs/sample_input.txt
+main.cpp  
+hash.cpp and hash.h (implementation of the hash table class)  
+Makefile   
+inputs/sample_input.txt  
 
 ### Run Instructions
-<pre> ```bash make ./encoder < inputs/sample_input.txt ``` </pre>
+```bash 
+   make
+   ./encoder < inputs/sample_input.txt
+``` 
 
 ## References
 - **GeeksforGeeks – Hash Functions and List Types of Hash Functions** 
-
 - **CSE 310 Course Materials, Fall 2025 (Arizona State University)** 
+
