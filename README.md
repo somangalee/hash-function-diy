@@ -2,7 +2,6 @@
 **Author:** Somang Lee  
 **Course:** CSE 310 - Data Structures and Algorithms  
 **Instructor:** Yiran "Lawrence" Luo  
-**Score:** 20/20  
 **Average Hidden Case StdDev:** 2.9930000000000003    
 **Ranking:** 10/114 Students  
 
@@ -56,5 +55,6 @@ inputs/sample_input.txt
 ## References
 - **GeeksforGeeks – Hash Functions and List Types of Hash Functions** 
 - **CSE 310 Course Materials, Fall 2025 (Arizona State University)** 
+
 
 
